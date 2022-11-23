@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 body{
     padding: 0;
     margin: 0;
 }
 main{
+    font-family: 'EB Garamond';
     margin: auto;
     width: 80%;
     max-width: 1200px;
@@ -47,3 +49,18 @@ a:hover {
     background-color: rgb(47, 124, 175);
   }
 
+h2{
+    text-decoration-line: underline;
+}
+h3{
+    text-decoration-line: underline;
+}
+.kek{
+    color: blue;
+}
+.sarga{
+    color: rgb(255, 166, 0);
+}
+.zold{
+    color: green;
+}
