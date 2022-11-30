@@ -68,10 +68,21 @@ h3{
         grid-template-columns: 1fr;
         grid-template-areas:"h"
                             "n"
+<<<<<<< HEAD
                             "ar"
                             "as"
                             "f";
     }
+=======
+                            "s"
+                            "k"
+                            "f";
+    }
+    article{
+        grid-template-columns: 1fr;
+    }
+
+>>>>>>> a0a8712e46fddb04c6c829655b6589c05c57b4f0
     .farkas{
         grid-area: s;
         width: 70%;
@@ -83,6 +94,10 @@ h3{
         width: 70%;
         height: 200px;
         width: 200px;
+    }
+    nav li{
+        display: grid;
+        grid-template-columns: 1fr;
     }
     nav li{
         display: grid;
