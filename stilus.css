@@ -41,6 +41,7 @@ nav li{
 nav li a{
     text-decoration: none;
     color: black;
+   
 }
 a:hover {
     background-color: rgb(47, 124, 175);
