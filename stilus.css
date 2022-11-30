@@ -32,6 +32,7 @@ aside img{
 }
 footer{
     grid-area: f;
+    margin: auto;
 }
 nav li{
     display: inline;
