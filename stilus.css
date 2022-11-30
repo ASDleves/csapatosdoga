@@ -67,9 +67,7 @@ h3{
         grid-template-columns: 1fr;
         grid-template-areas:"h"
                             "n"
-                            "v1"
                             "s"
-                            "v2"
                             "k"
                             "f";
     }
@@ -77,12 +75,6 @@ h3{
         grid-template-columns: 1fr;
     }
 
-    .virag1{
-        grid-area: v1;
-    }
-    .virag2{
-        grid-area: v2;
-    }
     .farkas{
         grid-area: s;
         width: 100%;
@@ -90,5 +82,9 @@ h3{
     .havasi{
         grid-area: k;
         width: 100%;
+    }
+    nav li{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
